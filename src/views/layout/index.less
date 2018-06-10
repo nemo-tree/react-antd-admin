@@ -1,0 +1,88 @@
+.ant-layout-sider {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .117647), 0 1px 4px rgba(0, 0, 0, .117647);
+    .logo {
+        position: relative;
+        height: 64px;
+        padding-left: 24px;
+        cursor: pointer;
+        &>i.anticon-github {
+            font-size: 30px;
+            margin-right: 15px;
+            line-height: 66px;
+        }
+        &>span {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            display: inline-block;
+        }
+        span.hide {
+            display: none;
+        }
+    }
+}
+
+.trigger-wrap {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+    &:hover {
+        background-color: #e6f7ff;
+        color: #1890ff;
+    }
+}
+
+.ant-layout-header {
+    background-color: #fff;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    &>.header-right {
+        padding-right: 15px;
+        display: flex;
+        .news-wrap {
+            margin:2px 40px 0 0;
+            cursor: pointer;
+        }
+       
+    }
+}
+
+.dropdown-wrap {
+    cursor: pointer;
+    .ant-dropdown-menu-item {
+        padding: 6px 20px 8px 15px;
+        i {
+            padding-right: 15px;
+        }
+    }
+    .anticon-caret-down {
+        vertical-align: bottom;
+        padding:0 0 12px 6px;
+    }
+}
+
+
+.tags-row-wrap {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    justify-content: space-between;
+    height: 36px;
+    line-height: 35px;
+    border-bottom: 1px solid #d8dce5;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 0 3px 0 rgba(0, 0, 0, 0.04);
+    background-color: #fff;
+    padding: 0 16px;
+    .tags-wrap {
+        padding: 0;
+        &>li {
+            display: inline-block;
+        }
+    }
+}

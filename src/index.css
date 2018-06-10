@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/*css 初始化 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+:global(#root) {
+    height: 100%;
+}
+:global(.ant-layout) {
+    min-height: 100%;
+}
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif
+}
+
+fieldset,
+img,
+input,
+button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select,
+input {
+    vertical-align: middle;
+}
+
+select,
+input,
+textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/*防止拖动*/
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+    background: #fff;
+    width: 1263px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+    /*IE/7/6*/
+}
+/* 路由过渡效果 */
+.fade-enter {
+    opacity: 0;
+    transform: translateX(-30px);
+}
+
+.fade-enter-active,
+.fade-exit-active
+{
+    opacity: 1;
+    transition: all 500ms ease-out;
+    transform: translateX(0);
+}
+
+.fade-exit {
+    opacity: 0;
+    transform: translateX(30px);
+}
+
+
+
+.shadow-radius {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    padding: 8px;
+    background-color: #fff !important;
+}
+
+canvas {
+    display: block;
+}
+
+.globalSpin {
+    width: 100%;
+    margin: 40px 0 !important;
+}
+
+.ant-spin-container {
+    overflow: visible !important;
+}

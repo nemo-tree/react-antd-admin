@@ -1,0 +1,45 @@
+.draggable-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    .left-item-ul {
+        padding: 20px;
+        width: 49%;
+        min-height: 400px;
+        .drap-list {
+            padding: 0 16px;
+            width: 100%;
+            line-height: 48px;
+            transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1);
+            cursor: move;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 16px;
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.1);
+            }
+            a.close {
+                height: 20px;
+                display: inline-block;
+                line-height: 20px;
+                padding: 0 6px;
+                border-radius: 3px;
+                font-size: 12px;
+                font-weight: bold;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .right-item-ul {
+      width: 49%;
+      display: flex;
+      flex-wrap: wrap;
+      min-height: 400px;
+      & > li {
+        width: 33.3%;
+      }
+    }
+}
