@@ -4,7 +4,7 @@
 
 > 基于react和antd的后台管理系统，支持响应式，IE10+
 
-- [预览地址](https://nemo-tree.github.io/react-antd-admin/#/login)(已增加响应式，可手机预览😄)
+- [预览地址](http://www.1994sx.top/react-antd-admin)(已增加响应式，可手机预览😄)
 - 该项目基于[create-react-app](https://github.com/facebook/create-react-app)创建
 ### 依赖模块
 - [react@16.3.2](https://facebook.github.io/react/)
